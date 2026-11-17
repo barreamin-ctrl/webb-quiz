@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #e2e8f0;
+}
+
+button.correct {
+    background-color: #d4edda !important;
+    border-color: #28a754;
+}
+
+button.wrong {
+    background-color: #f8d7da !important;
+    border-color: #dc3545;
+}
